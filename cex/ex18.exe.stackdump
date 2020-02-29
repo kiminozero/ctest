@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61139B78
+eax=00000000 ebx=200102F4 ecx=00000001 edx=0000000C esi=00000000 edi=6119BA1F
+ebp=0061CC48 esp=0061CBC8 program=H:\wsl\ctest\cex\ex18.exe, pid 14544, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0061CC48  61139B78 (00000004, 0061CC6C, 20010100, 00000000)
+0061CD08  6100842E (00000000, 0061CD64, 61007530, 00000000)
+End of stack trace
